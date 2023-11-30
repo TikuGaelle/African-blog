@@ -3,6 +3,7 @@ import classes from "./homeCards.module.css";
 import image1 from "../images/Group 3.png";
 import image2 from "../images/Group 2.png";
 import image3 from "../images/Group 1.png";
+import image4 from "../images/header1.png";
 
 const HomeCards = () => {
   return (
@@ -71,6 +72,27 @@ const HomeCards = () => {
             </p>
             <Button text="Visit Our blog" />
             {/* <button> Visit Africa </button> */}
+          </div>
+        </div>
+
+        <h2> Get Involved </h2>
+        <p>
+          {" "}
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure iusto
+          laudantium deserunt
+          <br />
+          numquam ut debitis libero veniam perferendis esse quas placeat, quae
+          ab vel. Nulla mollitia
+          <br />
+          earum ipsam pariatur delectus.{" "}
+        </p>
+        <Button text="Get Involved" />
+        <div className={classes.getInvolved}>
+          <div className={classes.pic1}>
+            {/* <img src={image4} alt="pic1" /> */}
+          </div>
+          <div className={classes.pic2}>
+            {/* <img src={image4} alt="pic2" /> */}
           </div>
         </div>
       </div>

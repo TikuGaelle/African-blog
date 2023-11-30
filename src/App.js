@@ -6,9 +6,17 @@ import HomeCards from "./components/homeCards";
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <header className="header">
+        {" "}
+        Header Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+        sit eum non suscipit unde blanditiis qui odit, fuga magni, ad illo
+        cumque voluptatibus reiciendis temporibus facere ab repellat saepe
+        impedit.
+      </header>
+      <br />
+      <br />
       <HomeCards />
-      <footer></footer>
+      <footer>Footer</footer>
     </div>
   );
 }
