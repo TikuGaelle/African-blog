@@ -32,7 +32,6 @@ const HomeCards = () => {
             {/* <button> Visit Africa </button> */}
           </div>
         </div>
-
         <div className={classes.div1}>
           <div className={classes.textSide}>
             <h2> African Wildlife</h2>
@@ -54,7 +53,6 @@ const HomeCards = () => {
             <img src={image3} alt="african wildlife" />
           </div>
         </div>
-
         <div className={classes.div1}>
           <div className={classes.imageSide}>
             <img src={image2} alt="african blog" />
@@ -72,27 +70,6 @@ const HomeCards = () => {
             </p>
             <Button text="Visit Our blog" />
             {/* <button> Visit Africa </button> */}
-          </div>
-        </div>
-
-        <h2> Get Involved </h2>
-        <p>
-          {" "}
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure iusto
-          laudantium deserunt
-          <br />
-          numquam ut debitis libero veniam perferendis esse quas placeat, quae
-          ab vel. Nulla mollitia
-          <br />
-          earum ipsam pariatur delectus.{" "}
-        </p>
-        <Button text="Get Involved" />
-        <div className={classes.getInvolved}>
-          <div className={classes.pic1}>
-            {/* <img src={image4} alt="pic1" /> */}
-          </div>
-          <div className={classes.pic2}>
-            {/* <img src={image4} alt="pic2" /> */}
           </div>
         </div>
       </div>

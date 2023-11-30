@@ -1,7 +1,9 @@
 // import HeaderImage from "./images/header1.png";
 import "./App.css";
+import GetInvolvedSection from "./components/getInvolved";
 
 import HomeCards from "./components/homeCards";
+import SuccessCard from "./components/successCard";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <br />
       <br />
       <HomeCards />
+      <GetInvolvedSection />
+      <SuccessCard />
       <footer>Footer</footer>
     </div>
   );
