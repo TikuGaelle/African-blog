@@ -38,29 +38,31 @@ const data = [
 
 const SuccessCard = () => {
   return (
-    <div className={classes.section}>
-      <h2> Some Success Stories From Africa </h2>
-      {data &&
-        data.map((story) => (
-          <div className={classes.card}>
-            <div className={classes.profileDetails}>
-              {/* flex row with two elements, pic and name */}
+    <>
+      <h2 className={classes.heading}> Some Success Stories From Africa </h2>
+      <div className={classes.section}>
+        {data &&
+          data.map((story) => (
+            <div className={classes.card}>
+              <div className={classes.profileDetails}>
+                {/* flex row with two elements, pic and name */}
 
-              <img
-                className={classes.profilepic}
-                src={story.image}
-                alt="profilepic"
-              />
+                <img
+                  className={classes.profilepic}
+                  src={story.image}
+                  alt="profilepic"
+                />
 
-              <div className={classes.name}>
-                <h3>{story.name} </h3>
-                <p> {story.title}</p>
+                <div className={classes.name}>
+                  <h3>{story.name} </h3>
+                  <p> {story.title}</p>
+                </div>
               </div>
+              <p>{story.description}</p>
             </div>
-            <p>{story.description}</p>
-          </div>
-        ))}
-    </div>
+          ))}
+      </div>
+    </>
   );
 };
 

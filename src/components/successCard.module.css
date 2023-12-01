@@ -1,8 +1,21 @@
 .section {
+  /* justify-content: center;
+  align-items: center; */
+  display: flex;
+  /* width: 2040px; */
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.section::-webkit-scrollbar {
+  visibility: hidden;
+  height: 1px;
+}
+.heading {
   justify-content: start;
   align-items: start;
 }
-
 .card {
   height: 250px;
   width: 300px;

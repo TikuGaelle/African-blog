@@ -4,6 +4,12 @@ import image1 from "../images/Group 3.png";
 import image2 from "../images/Group 2.png";
 import image3 from "../images/Group 1.png";
 import image4 from "../images/header1.png";
+import styled from "styled-components";
+
+const StyledText = styled.h1`
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+`;
 
 const HomeCards = () => {
   return (
@@ -15,7 +21,7 @@ const HomeCards = () => {
             <img src={image1} alt="african culture" />
           </div>
           <div className={classes.textSide}>
-            <h2> African Culture</h2>
+            <StyledText> African Culture</StyledText>
             <p>
               {" "}
               Immense yourself in the captivating cultures of Africa. From the
