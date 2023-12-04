@@ -1,6 +1,6 @@
 import Button from "./button";
 import classes from "./getInvolved.module.css";
-import SuccessCard from "./successCard";
+import image4 from "../images/manwithinstrument.jpg";
 
 const GetInvolvedSection = () => {
   return (
@@ -9,25 +9,18 @@ const GetInvolvedSection = () => {
         <h2> Get Involved! </h2>
         <p>
           {" "}
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure iusto
-          laudantium deserunt
-          <br />
-          numquam ut debitis libero veniam perferendis esse quas placeat, quae
-          ab vel. Nulla mollitia
-          <br />
-          earum ipsam pariatur delectus.{" "}
+          Discover volunteer programs, culturalexchange initiatives, and
+          community driven projects that allow you to make a positive impact and
+          contribute to the sustainable development of Africa.
         </p>
         <Button text="Get Involved" />
       </div>{" "}
       <br />
       <br />
       <div className={classes.getInvolvedImage}>
-        <div className={classes.pic1}>
-          {/* <img src={image4} alt="pic1" /> */}
-        </div>
-        <div className={classes.pic2}>
-          {/* <img src={image4} alt="pic2" /> */}
-        </div>
+        <img className={classes.pic1} src={image4} alt="pic1" />
+
+        <img className={classes.pic2} src={image4} alt="pic2" />
 
         {/* <SuccessCard /> */}
       </div>

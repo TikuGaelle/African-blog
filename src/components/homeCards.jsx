@@ -21,18 +21,13 @@ const HomeCards = () => {
             <img src={image1} alt="african culture" />
           </div>
           <div className={classes.textSide}>
-            <StyledText> African Culture</StyledText>
+            <h2 className="underline"> African Culture</h2>
             <p>
               {" "}
               Immense yourself in the captivating cultures of Africa. From the
-              rhythmic
-              <br />
-              beats of traditional music to the vibrant colors of traditional
-              attire,
-              <br />
-              explore the customs, festivals, art, dance, and cuisine that
-              <br />
-              defines each culture accross the continent.{" "}
+              rhythmic beats of traditional music to the vibrant colors of
+              traditional attire, explore the customs, festivals, art, dance,
+              and cuisine that defines each culture accross the continent.{" "}
             </p>
             <Button text="Visit Africa" />
             {/* <button> Visit Africa </button> */}
@@ -44,13 +39,9 @@ const HomeCards = () => {
             <p>
               {" "}
               From the majestic elephants and lions, to the graceful giraffes
-              and elusive leopards
-              <br />
-              delve into the ownders of african wildlife and get an appreciation
-              <br />
-              for the importance of conservation efforts in
-              <br />
-              preserving these extraordinary creatures{" "}
+              and elusive leopards delve into the ownders of african wildlife
+              and get an appreciation for the importance of conservation efforts
+              in preserving these extraordinary creatures{" "}
             </p>
             <Button text="Save an Extinct Animal" />
             {/* <button> Visit Africa </button> */}
@@ -68,11 +59,9 @@ const HomeCards = () => {
             <p>
               {" "}
               Dive deeper into Africa's diversity with our collection of
-              <br />
               insightful activities and blog posts. Explore indepth features,
-              <br />
-              interviews and thought-provoking content that <br />
-              delve into various aspects of African culture{" "}
+              interviews and thought-provoking content that delve into various
+              aspects of African culture{" "}
             </p>
             <Button text="Visit Our blog" />
             {/* <button> Visit Africa </button> */}

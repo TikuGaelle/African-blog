@@ -1,43 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy");
+
 .App {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   max-width: 2440px;
   background-color: beige;
-  /* margin: 0 auto; */
 }
-
-.header {
-  background-color: red;
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  background-image: url("./images/header4.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* .div2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 30vh;
-  /* padding: 20px; 
-  margin: 0px auto;
-} */
-/* .image {
-  height: 50vh;
-  width: 125%;
-  justify-content: center;
-  background-color: red;
-}
-.image:hover {
-  color: rgba(0, 0, 0, 0.6);
-  z-index: 2;
-} */

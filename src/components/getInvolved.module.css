@@ -3,7 +3,7 @@
   flex-direction: row;
   height: 35vh;
   gap: 20px;
-  width: 100%;
+  width: 1400px;
   background-color: beige;
 }
 .getInvolvedContainer {
@@ -14,21 +14,15 @@
 }
 .pic1 {
   width: 45%;
-  background-color: white;
-  background-image: url("../images//manwithinstrument.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* justify-content: center; */
+
   border-radius: 15px;
-  border: 2px solid brown;
+  border: 1px solid orangered;
   object-fit: cover;
 }
+
 .pic2 {
   width: 65%;
-  background-color: white;
+
   border-radius: 15px;
-  border: 2px solid brown;
-  background-image: url("../images//groupofmen.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  border: 1px solid orangered;
 }
