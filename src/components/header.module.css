@@ -27,17 +27,19 @@
   width: 500px;
   border-radius: 30px;
   color: black;
-  font-weight: 500;
-  background-color: rgba(165, 42, 42, 0.301);
+  font-weight: 400;
+  background-color: rgba(255, 228, 196, 0.158);
   display: flex;
-  border: 1px solid brown;
+  border: 1px solid burlywood;
   justify-content: space-evenly;
   align-items: center;
 }
 .links span {
   font-size: 20px;
 }
-
+.name {
+  color: orangered;
+}
 .headings {
   display: flex;
   flex-direction: column;
@@ -77,13 +79,54 @@
 .hdx {
   font-size: 28px;
   font-weight: 500;
+  font-family: "Satisfy", serif;
 }
 .subText {
   font-size: 10px;
 }
-/* .numbers div {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  color: beige;
-} */
+
+@media screen and (max-width: 798px) {
+  .title {
+    font-size: 46px;
+  }
+  .numbers {
+    width: 500px;
+  }
+  .links {
+    display: none;
+  }
+  .mobileMenu {
+    display: flex;
+    gap: 20px;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    gap: 3px;
+    /* justify-content: center; */
+    position: relative;
+    background-color: yellow;
+  }
+  .hamburgerTop,
+  .hamburgerMiddle,
+  .hamburgerBottom {
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.6);
+    top: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .numbers {
+    height: 200px;
+    width: 15vh;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 40px;
+  }
+}

@@ -11,21 +11,25 @@ const Header = () => {
         {/*logo, menu and button  */}
         <img className={classes.logo} src="\#" alt="logo" />
         <div className={classes.links}>
-          <span> Home </span>
+          <span className={classes.name}> Home </span>
           <span> About </span>
           <span> Culture </span>
           <span> Landscapes </span>
         </div>
-        <Button style={style} text="Discover Africa" />
+        <div className={classes.mobileMenu}>
+          <Button style={style} text="Discover Africa" />
+          <div className={classes.hamburger}>
+            <span className={classes.hamburgerTop}></span>
+            <span className={classes.hamburgerMiddle}></span>
+            <span className={classes.hamburgerBottom}></span>
+          </div>
+        </div>
       </div>
       <br />
       <div className={classes.headings}>
         {/* Text, button */}
-        <li className={classes.title}>
-          {" "}
-          DISCOVER THE VIBRANT <br />
-          TAPESTRY OF AFRICA
-        </li>
+        <li className={classes.title}> DISCOVER THE VIBRANT</li>
+        <li className={classes.title}> TAPESTRY OF AFRICA</li>
         <li className={classes.subTitle}>
           Uncover a Continent of Untold Stories and Inspiring Journeys
         </li>

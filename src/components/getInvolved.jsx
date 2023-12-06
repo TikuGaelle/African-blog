@@ -4,7 +4,8 @@ import image4 from "../images/manwithinstrument.jpg";
 
 const GetInvolvedSection = () => {
   const style = {
-    backgroundColor: "brown",
+    backgroundColor: "rgba(255, 68, 0, 0.81)",
+    color: "beige",
   };
 
   return (
@@ -14,7 +15,7 @@ const GetInvolvedSection = () => {
 
         <p>
           {" "}
-          Discover volunteer programs, culturalexchange initiatives, and
+          Discover volunteer programs, cultural exchange initiatives, and
           community driven projects that allow you to make a positive impact and
           contribute to the sustainable development of Africa.
         </p>

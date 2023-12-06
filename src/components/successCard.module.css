@@ -20,7 +20,7 @@
 .heading {
   justify-content: start;
   align-items: start;
-  font-family: "Satisfy" sans-serif;
+  font-family: "Satisfy", sans-serif;
   font-size: 28px;
 }
 .sliderItems {
@@ -38,7 +38,7 @@
 }
 
 .card {
-  height: 250px;
+  height: 270px;
   width: 280px;
   background-color: white;
   border: 1px solid orangered;
@@ -58,4 +58,10 @@
   height: 75px;
   border-radius: 50%;
   background-color: black;
+}
+
+@media screen and (max-width: 728px) {
+  .card {
+    height: 270px;
+  }
 }

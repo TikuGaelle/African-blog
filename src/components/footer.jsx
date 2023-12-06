@@ -6,6 +6,7 @@ import classes from "./footer.module.css";
 const Footer = () => {
   const style = {
     backgroundColor: "orangered",
+    color: "beige",
   };
   return (
     <>

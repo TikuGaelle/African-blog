@@ -8,3 +8,11 @@
   padding: 5px;
   /* background-color: black; */
 }
+
+@media screen and (max-width: 340px) {
+  .btn {
+    width: 10vh;
+    height: 43px;
+    font-size: 12px;
+  }
+}

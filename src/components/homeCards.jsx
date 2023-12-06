@@ -9,14 +9,19 @@ import styled from "styled-components";
 const HomeCards = () => {
   const style1 = {
     backgroundColor: "black",
+    color: "beige",
   };
   const style2 = {
     backgroundColor: "brown",
+    color: "beige",
   };
+
   return (
     <>
       <div className={classes.body}>
-        {/* <h1> Hello African blog!</h1> */}
+        {/* <Card data={Data} />
+        <Card data={Data} /> */}
+
         <div className={classes.div1}>
           <div className={classes.imageSide}>
             <img src={image1} alt="african culture" />
@@ -31,10 +36,9 @@ const HomeCards = () => {
               and cuisine that defines each culture accross the continent.{" "}
             </p>
             <Button style={style1} text="Visit Africa" />
-            {/* <button> Visit Africa </button> */}
           </div>
         </div>
-        <div className={classes.div1}>
+        <div className={classes.div2}>
           <div className={classes.textSide}>
             <h2> African Wildlife</h2>
             <p>
@@ -45,7 +49,6 @@ const HomeCards = () => {
               in preserving these extraordinary creatures{" "}
             </p>
             <Button style={style2} text="Save an Extinct Animal" />
-            {/* <button> Visit Africa </button> */}
           </div>
           <div className={classes.imageSide}>
             <img src={image3} alt="african wildlife" />
@@ -65,7 +68,6 @@ const HomeCards = () => {
               aspects of African culture{" "}
             </p>
             <Button style={style1} text="Visit Our blog" />
-            {/* <button> Visit Africa </button> */}
           </div>
         </div>
       </div>
@@ -74,3 +76,22 @@ const HomeCards = () => {
 };
 
 export default HomeCards;
+
+// const Card = ({ data }) => {
+//   const { title, description, buttonText, image, containerFlex, buttonStyle } =
+//     data;
+
+//   return (
+//     <div style={containerFlex} className={classes.div1}>
+//       <div className={classes.textSide}>
+//         <h2> {title}</h2>
+//         <p>{description} </p>
+//         <Button style={buttonStyle} text={buttonText} />
+//         {/* <button> Visit Africa </button> */}
+//       </div>
+//       <div className={classes.imageSide}>
+//         <img src={image} alt="african culture" />
+//       </div>
+//     </div>
+//   );
+// };
