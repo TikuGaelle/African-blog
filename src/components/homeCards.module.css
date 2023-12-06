@@ -3,11 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1400px;
-  /* gap: 30px;
-  background-color: beige;
-  /* padding-left: 20px;
-  padding-right: 20px; */
+  /* width: 1400px; */
+  padding-left: 310px;
+  padding-right: 310px;
+  margin: 0 auto;
 }
 .div1 {
   display: flex;
@@ -42,6 +41,7 @@
 .textSide {
   display: flex;
   flex-direction: column;
+  gap: 10px;
   height: 50vh;
   width: 65%;
   justify-content: center;
@@ -52,4 +52,5 @@
 }
 .textSide h2 {
   font-family: "Satisfy", serif;
+  font-size: 28px;
 }

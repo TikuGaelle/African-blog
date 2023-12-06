@@ -6,12 +6,13 @@ import image3 from "../images/Group 1.png";
 import image4 from "../images/header1.png";
 import styled from "styled-components";
 
-const StyledText = styled.h1`
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-`;
-
 const HomeCards = () => {
+  const style1 = {
+    backgroundColor: "black",
+  };
+  const style2 = {
+    backgroundColor: "brown",
+  };
   return (
     <>
       <div className={classes.body}>
@@ -21,7 +22,7 @@ const HomeCards = () => {
             <img src={image1} alt="african culture" />
           </div>
           <div className={classes.textSide}>
-            <h2 className="underline"> African Culture</h2>
+            <h2> African Culture</h2>
             <p>
               {" "}
               Immense yourself in the captivating cultures of Africa. From the
@@ -29,7 +30,7 @@ const HomeCards = () => {
               traditional attire, explore the customs, festivals, art, dance,
               and cuisine that defines each culture accross the continent.{" "}
             </p>
-            <Button text="Visit Africa" />
+            <Button style={style1} text="Visit Africa" />
             {/* <button> Visit Africa </button> */}
           </div>
         </div>
@@ -43,7 +44,7 @@ const HomeCards = () => {
               and get an appreciation for the importance of conservation efforts
               in preserving these extraordinary creatures{" "}
             </p>
-            <Button text="Save an Extinct Animal" />
+            <Button style={style2} text="Save an Extinct Animal" />
             {/* <button> Visit Africa </button> */}
           </div>
           <div className={classes.imageSide}>
@@ -63,7 +64,7 @@ const HomeCards = () => {
               interviews and thought-provoking content that delve into various
               aspects of African culture{" "}
             </p>
-            <Button text="Visit Our blog" />
+            <Button style={style1} text="Visit Our blog" />
             {/* <button> Visit Africa </button> */}
           </div>
         </div>

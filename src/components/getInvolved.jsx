@@ -3,17 +3,22 @@ import classes from "./getInvolved.module.css";
 import image4 from "../images/manwithinstrument.jpg";
 
 const GetInvolvedSection = () => {
+  const style = {
+    backgroundColor: "brown",
+  };
+
   return (
     <>
       <div className={classes.getInvolvedContainer}>
         <h2> Get Involved! </h2>
+
         <p>
           {" "}
           Discover volunteer programs, culturalexchange initiatives, and
           community driven projects that allow you to make a positive impact and
           contribute to the sustainable development of Africa.
         </p>
-        <Button text="Get Involved" />
+        <Button style={style} text="Get Involved" />
       </div>{" "}
       <br />
       <br />

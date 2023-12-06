@@ -4,6 +4,9 @@ import classes from "./footer.module.css";
 // import { ReactComponent as FaceB } from "../images/facebook.svg";
 
 const Footer = () => {
+  const style = {
+    backgroundColor: "orangered",
+  };
   return (
     <>
       <div className={classes.footer}>
@@ -15,7 +18,7 @@ const Footer = () => {
             <li>Cultures</li>
             <li>Landscapes</li>
             <br />
-            <Button text="Discover Africa" />
+            <Button style={style} text="Discover Africa" />
           </div>
         </div>
         <div className={classes.socialLinks}>

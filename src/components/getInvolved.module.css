@@ -3,18 +3,25 @@
   flex-direction: row;
   height: 35vh;
   gap: 20px;
-  width: 1400px;
   background-color: beige;
+  padding-left: 310px;
+  padding-right: 310px;
+  margin: 0 auto;
 }
 .getInvolvedContainer {
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
+.getInvolvedContainer h2 {
+  font-family: "Satisfy", serif;
+  font-size: 28px;
+}
+
 .pic1 {
   width: 45%;
-
   border-radius: 15px;
   border: 1px solid orangered;
   object-fit: cover;

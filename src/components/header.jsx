@@ -2,6 +2,9 @@ import Button from "./button";
 import classes from "./header.module.css";
 
 const Header = () => {
+  const style = {
+    backgroundColor: "black",
+  };
   return (
     <div className={classes.header}>
       <div className={classes.menu}>
@@ -13,7 +16,7 @@ const Header = () => {
           <span> Culture </span>
           <span> Landscapes </span>
         </div>
-        <Button text="Discover Africa" />
+        <Button style={style} text="Discover Africa" />
       </div>
       <br />
       <div className={classes.headings}>
@@ -26,7 +29,7 @@ const Header = () => {
         <li className={classes.subTitle}>
           Uncover a Continent of Untold Stories and Inspiring Journeys
         </li>
-        <Button text="Discover Africa" />
+        <Button style={style} text="Discover Africa" />
       </div>
       <br />
       <br />

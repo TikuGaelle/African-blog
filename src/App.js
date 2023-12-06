@@ -15,6 +15,9 @@ function App() {
       <br />
       <HomeCards />
       <GetInvolvedSection />
+      <br />
+      <br />
+      <br />
       <SuccessCard />
       <Footer />
     </div>

@@ -102,14 +102,15 @@ const data = [
 
 const SuccessCard = () => {
   return (
-    <>
+    <div className={classes.container}>
       <h2 className={classes.heading}> Some Success Stories From Africa </h2>
+      <br />
       <div className={classes.section}>
         <div className={classes.sliderItems}>
           {data && data.map((story) => <Card info={story} />)}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
@@ -133,6 +134,7 @@ const Card = ({ info }) => {
             <p> {info.title}</p>
           </div>
         </div>
+        <br />
         <p>{info.description}</p>
       </div>
     </>
