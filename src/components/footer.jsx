@@ -3,6 +3,7 @@ import classes from "./footer.module.css";
 import { ReactComponent as Twit } from "../images/twitter.svg";
 import { ReactComponent as FaceB } from "../images/facebook.svg";
 import { ReactComponent as LinkIn } from "../images/linkedin.svg";
+import { ReactComponent as Email } from "../images/email.svg";
 import Logo from "../images/logo.png";
 
 const Footer = () => {
@@ -31,6 +32,9 @@ const Footer = () => {
         <div className={classes.emptyCon}>
           <div className={classes.sizedbox}></div>
           <div className={classes.socialLinks}>
+            <a href="https://gmail.com/" target="_blank">
+              <Email title="Our email page" className={classes.email} />
+            </a>
             <a href="https://facebook.com/" target="_blank">
               <FaceB title="Our facebook page" className={classes.fb} />
             </a>
