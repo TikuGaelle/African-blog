@@ -1,6 +1,8 @@
-.twiIco .fb {
-  fill: white;
-  stroke: orangered;
+.twiIco,
+.fb {
+  fill: orangered;
+  width: 25px;
+  height: 25px;
 }
 .footer {
   display: flex;
@@ -14,16 +16,20 @@
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
 }
+.logo {
+  width: 40px;
+  height: 40px;
+}
 .socialLinks {
   display: flex;
   flex-direction: row;
-  gap: 3px;
+  gap: 10px;
   /* align-items: ; */
 }
 .firstSection {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 50px;
 }
 .shortLinks {
   display: flex;
@@ -33,4 +39,9 @@
 }
 .shortLinks li {
   list-style: none;
+}
+.emptyCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

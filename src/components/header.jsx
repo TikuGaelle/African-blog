@@ -1,5 +1,6 @@
 import Button from "./button";
 import classes from "./header.module.css";
+import logo from "../images/logo.png";
 
 const Header = () => {
   const style = {
@@ -9,7 +10,7 @@ const Header = () => {
     <div className={classes.header}>
       <div className={classes.menu}>
         {/*logo, menu and button  */}
-        <img className={classes.logo} src="\#" alt="logo" />
+        <img className={classes.logo} src={logo} alt="logo" />
         <div className={classes.links}>
           <span className={classes.name}> Home </span>
           <span> About </span>
