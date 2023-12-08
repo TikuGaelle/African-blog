@@ -3,8 +3,8 @@
 .linkco,
 .email {
   fill: orangered;
-  width: 25px;
-  height: 25px;
+  width: 1rem;
+  height: 1rem;
 }
 .footer {
   display: flex;

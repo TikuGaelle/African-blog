@@ -1,6 +1,7 @@
 import Button from "./button";
 import classes from "./header.module.css";
 import logo from "../images/logo.png";
+import hamburger from "../images/hamburger.png";
 
 const Header = () => {
   const style = {
@@ -19,11 +20,12 @@ const Header = () => {
         </div>
         <div className={classes.mobileMenu}>
           <Button style={style} text="Discover Africa" />
-          <div className={classes.hamburger}>
-            <span className={classes.hamburgerTop}></span>
-            <span className={classes.hamburgerMiddle}></span>
-            <span className={classes.hamburgerBottom}></span>
-          </div>
+          <img className={classes.hamburger} src={hamburger} alt="hamburger" />
+          {/* <div className={classes.hamburger}>
+            <div className={classes.hamburgerTop}>1</div>
+            <div className={classes.hamburgerMiddle}>2</div>
+            <div className={classes.hamburgerBottom}>3</div> 
+          </div>*/}
         </div>
       </div>
       <br />
