@@ -2,14 +2,14 @@
   border-radius: 20px;
   border: none;
   height: 38px;
-  width: 15vh;
+  width: 20vh;
   color: white;
   font-size: 14px;
   padding: 5px;
   /* background-color: black; */
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 420px) {
   .btn {
     width: 10vh;
     height: 43px;
