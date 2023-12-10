@@ -9,7 +9,7 @@
 .footer {
   display: flex;
   flex-direction: row;
-  height: 25vh;
+  min-height: 25vh;
   /* width: 100%; */
   color: white;
   justify-content: space-between;
