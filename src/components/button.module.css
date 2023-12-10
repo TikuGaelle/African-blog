@@ -2,7 +2,7 @@
   border-radius: 20px;
   border: none;
   height: 40px;
-  width: 25vh;
+  min-width: 20vh;
   color: white;
   font-size: 16px;
   font-weight: 500;
@@ -10,9 +10,9 @@
   /* background-color: black; */
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 700px) {
   .btn {
-    width: 15vh;
+    min-width: 15vh;
     height: 45px;
     font-size: 14px;
     font-weight: 300;

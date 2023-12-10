@@ -4,8 +4,8 @@
   height: 35vh;
   gap: 20px;
   background-color: beige;
-  padding-left: 310px;
-  padding-right: 310px;
+  padding-left: 350px;
+  padding-right: 350px;
   margin: 0 auto;
 }
 .getInvolvedContainer {
@@ -23,13 +23,13 @@
 }
 
 .pic1 {
-  width: 45%;
+  width: 40%;
   border-radius: 15px;
   border: 1px solid rgba(255, 68, 0, 1);
 }
 
 .pic2 {
-  width: 65%;
+  width: 60%;
   border-radius: 15px;
   border: 1px solid orangered;
 }
